@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11.表单格式化</title>
+</head>
+<body>
+    <form action="http://www.baidu.com" method="post">
+        <input type="hidden" name="action" value="login">
+        <h1 align="center">用户注册</h1>
+        <table align="center">
+            <tr>
+                <td>用户名称:</td>
+                <td>
+                    <label>
+                        <input type="text" value="abc">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    填写正确学号
+                </td>
+            </tr>
+            <tr>
+                <td>用户密码:</td>
+                <td>
+                    <label>
+                        <input type="password" value="123456">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>性别:</td>
+                <td>
+                    <label>
+                        <input type="radio" name="sex">男
+                    </label>
+                    <label>
+                        <input type="radio" name="sex">女
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>兴趣爱好:</td>
+                <td>
+                    <label>
+                        <input type="checkbox">乒乓球
+                    </label>
+                    <label>
+                        <input type="checkbox">篮球
+                    </label>
+                    <label>
+                        <input type="checkbox">足球
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>国籍</td>
+                <td>
+                    <label>
+                        <select>
+                            <option>请选择国籍</option>
+                            <option>中国</option>
+                            <option>美国</option>
+                            <option>日本</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>自我评价</td>
+                <td>
+                    <label>
+                    <textarea name="自我评价" cols="20" rows="10">
+                        我是默认内容
+                    </textarea>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type="reset" />
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label>
+                        <input type="submit"/>
+                    </label>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
