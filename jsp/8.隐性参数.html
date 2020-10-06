@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.隐性参数</title>
+    <script>
+        function fun(){
+            let res=0;
+            for(let i=0;i<arguments.length;i++){
+                if(typeof (arguments[i])=="number")
+                    res+=arguments[i];
+                else
+                    alert(arguments[i]);
+            }
+            return res;
+        }
+        alert(fun(1,2,3,"abc",4,5,6));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

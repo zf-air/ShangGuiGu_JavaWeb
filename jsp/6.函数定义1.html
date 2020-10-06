@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.函数定义1</title>
+    <script>
+        function fun(){
+            alert("hello");
+        }
+        //只有调用了函数才执行,加不加分号都可以
+        fun();
+
+        //有参函数，参数不加类型，直接写形参名字
+        function fun2(a,b){
+            alert("a="+a+" b="+b);
+        }
+        fun2(10,"abc");
+
+        //带返回值
+        function fun3(a,b){
+            let res;
+            res=a+b;
+            return res;
+        }
+        alert(fun3(10,5));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
