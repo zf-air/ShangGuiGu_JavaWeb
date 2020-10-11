@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementById</title>
+    <script>
+        function onclickFun() {
+            //通过Id获取对象
+            let usernameObj = document.getElementById("username");
+            //获取对象的值
+            let username = usernameObj.value;
+            // alert(username);
+            //正则表达式
+            let patt = /^\w{5,12}$/;
+            //正则表达式的test方法,匹配就返回true，不匹配就返回false
+            alert(patt.test(username));
+
+        }
+    </script>
+</head>
+<body>
+    <label>
+        用户名：<input type="text" id="username" value="123">
+        <button onclick="onclickFun()">验证</button>
+    </label>
+</body>
+</html>

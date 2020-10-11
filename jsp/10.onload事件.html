@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10.onload事件</title>
+    <script>
+        // 静态注册onload事件
+        function onloadfun() {
+            alert("静态注册onload");
+        }
+
+        //onload动态注册,是固定写法
+        window.onload = function () {
+            alert("动态注册onload");
+        }
+    </script>
+</head>
+<!--
+    静态注册onload,调用函数
+    <body onload="onloadfun()">
+-->
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容发生改变事件</title>
+    <script>
+        // 静态内容改变
+        function onchangeFun() {
+            alert("女神已经改变了");
+        }
+
+        // 动态内容改变
+        window.onload = function (){
+            // 获取对象标签
+            let onchangeObj = document.getElementById("select");
+            //写对应函数
+            onchangeObj.onchange = function () {
+                alert("男神已经改变了");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    请选择心中的女神:
+    <label>
+        <select onchange="onchangeFun()">
+            <option>--请选择女神--</option>
+            <option>小美</option>
+            <option>小红</option>
+            <option>小芳</option>
+        </select>
+    </label>
+    <br>
+    请选择心中的男神：
+    <label>
+        <select id="select">
+            <option>--请选择男神--</option>
+            <option>张帆</option>
+            <option>张星号</option>
+            <option>张晨宇</option>
+        </select>
+    </label>
+</body>
+</html>

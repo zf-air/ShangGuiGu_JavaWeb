@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11.onclick事件</title>
+    <script>
+        function onclickFun() {
+            alert("静态注册onclick");
+        }
+
+        let btnObj = document.getElementById("btn02");
+        btnObj.onclick = function () {
+            alert("动态注册onclick");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="onclickFun()">按钮1</button>
+    <button id="btn02">按钮2</button>
+</body>
+</html>

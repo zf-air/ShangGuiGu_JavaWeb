@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onsubmit表单提交事件</title>
+    <script>
+        //静态
+        function onsubmitFun()
+        {
+            alert("静态表单提交");
+            return false;
+        }
+
+        //动态
+        window.onload = function () {
+            let onsubmitObj = document.getElementById("submit");
+
+            onsubmitObj.onsubmit = function () {
+                alert("动态提交");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="http://localhost:8080" method="get" onsubmit="return onsubmitFun()">
+        <input type="submit" value="静态提交">
+    </form>
+    <form action="http://localhost:8080" method="get" id="submit">
+        <input type="submit" value="动态提交">
+    </form>
+
+</body>
+</html>
