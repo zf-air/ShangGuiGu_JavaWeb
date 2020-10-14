@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementByName</title>
+    <script>
+        function selectAll() {
+            let hobbies = document.getElementsByName("hobby");
+            for(let i=0;i<hobbies.length;i++){
+                hobbies[i].checked = true;
+            }
+        }
+        function selectNo() {
+            let hobbies = document.getElementsByName("hobby");
+            for(let i=0;i<hobbies.length;i++){
+                hobbies[i].checked = false;
+            }
+        }
+        function selectReverse() {
+            let hobbies = document.getElementsByName("hobby");
+            for(let i=0;i<hobbies.length;i++){
+                hobbies[i].checked = !hobbies[i].checked;
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>
+        <input type="checkbox" name="hobby" value="cpp">
+        cpp
+    </label>
+    <label>
+        <input type="checkbox" name="hobby" value="java">
+        java
+    </label>
+    <label>
+        <input type="checkbox" name="hobby" value="js">
+        javascript
+    </label>
+    <br>
+    <button onclick="selectAll()">全选</button>
+    <button onclick="selectNo()">不选</button>
+    <button onclick="selectReverse()">反选</button>
+</body>
+</html>

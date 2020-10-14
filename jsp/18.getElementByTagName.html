@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementByTagName</title>
+    <script>
+        //标签名查询
+        function selectAll() {
+            let inputs = document.getElementsByTagName("input");
+            for(let i=0;i<inputs.length;i++){
+                inputs[i].checked=true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>
+        <input type="checkbox" name="hobby" value="cpp">
+        cpp
+    </label>
+    <label>
+        <input type="checkbox" name="hobby" value="java">
+        java
+    </label>
+    <label>
+        <input type="checkbox" name="hobby" value="js">
+        javascript
+    </label>
+    <br>
+    <button onclick="selectAll()">全选</button>
+</body>
+</html>
