@@ -19,36 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbc07e37-2460-49f7-8bab-260a9d3d1e92" name="默认的" comment="" />
+    <list default="true" id="19f0f88a-85e0-4ecf-907f-742843fb3151" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1iVLY056yd0J0m8dGPVPN17I13L" />
+  <component name="ProjectId" id="1jIwqWulTukIC6yiTEhbG8LenPA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitProjects\ShangGuiGu_JavaWeb\JQuery" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -66,20 +62,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbc07e37-2460-49f7-8bab-260a9d3d1e92" name="默认的" comment="" />
-      <created>1601987855603</created>
+      <changelist id="19f0f88a-85e0-4ecf-907f-742843fb3151" name="默认的" comment="" />
+      <created>1603505106007</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601987855603</updated>
-      <workItem from="1601987856864" duration="4296000" />
-      <workItem from="1602054729506" duration="1706000" />
-      <workItem from="1602064754284" duration="2068000" />
-      <workItem from="1602157844862" duration="4109000" />
-      <workItem from="1602417196553" duration="38000" />
-      <workItem from="1602591356067" duration="44000" />
-      <workItem from="1602680220718" duration="2683000" />
-      <workItem from="1603453121339" duration="816000" />
-      <workItem from="1603504950537" duration="141000" />
+      <updated>1603505106007</updated>
+      <workItem from="1603505107248" duration="2944000" />
     </task>
     <servers />
   </component>
@@ -96,21 +84,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="618" y="179" key="FileChooserDialogImpl" timestamp="1603505072011">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="618" y="179" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603505072011" />
-    <state x="392" y="13" key="new project wizard" timestamp="1603505104194">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="392" y="13" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1603505104194" />
-    <state x="490" y="140" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1603464704211" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602056247875">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602056247875" />
   </component>
 </project>
