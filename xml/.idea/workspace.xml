@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -58,17 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Buzhou">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Buzhou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xml" />
       <extension name="coverage">
@@ -115,6 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604232450971</updated>
       <workItem from="1604232452106" duration="3131000" />
+      <workItem from="1604299623498" duration="490000" />
+      <workItem from="1604317007091" duration="15000" />
     </task>
     <servers />
   </component>
@@ -131,12 +122,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="215" key="#com.intellij.ide.util.MemberChooser" timestamp="1604232687919">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="215" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604232687919" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1604317020782">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604317020782" />
     <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1604235615328">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

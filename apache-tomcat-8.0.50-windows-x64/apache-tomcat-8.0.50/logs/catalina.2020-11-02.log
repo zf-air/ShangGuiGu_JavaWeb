@@ -1,0 +1,47 @@
+02-Nov-2020 14:55:48.059 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+02-Nov-2020 14:55:48.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk14
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           14.0.2+12-46
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\conf\logging.properties
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\temp
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+02-Nov-2020 14:55:48.069 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02-Nov-2020 14:55:48.709 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+02-Nov-2020 14:55:48.820 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+02-Nov-2020 14:55:48.829 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+02-Nov-2020 14:55:48.831 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1468 ms
+02-Nov-2020 14:55:48.892 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Nov-2020 14:55:48.893 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+02-Nov-2020 14:55:48.919 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\docs
+02-Nov-2020 14:55:49.554 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\docs has finished in 634 ms
+02-Nov-2020 14:55:49.555 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\examples
+02-Nov-2020 14:55:50.182 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\examples has finished in 627 ms
+02-Nov-2020 14:55:50.183 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\host-manager
+02-Nov-2020 14:55:50.219 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\host-manager has finished in 36 ms
+02-Nov-2020 14:55:50.219 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\manager
+02-Nov-2020 14:55:50.249 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\manager has finished in 30 ms
+02-Nov-2020 14:55:50.250 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\ROOT
+02-Nov-2020 14:55:50.279 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\ROOT has finished in 29 ms
+02-Nov-2020 14:55:50.284 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+02-Nov-2020 14:55:50.299 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+02-Nov-2020 14:55:50.305 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1473 ms
+02-Nov-2020 15:45:52.865 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\新建文件夹
+02-Nov-2020 15:45:52.925 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\新建文件夹 has finished in 60 ms
+02-Nov-2020 15:46:03.440 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/新建文件夹]
+02-Nov-2020 15:46:03.535 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\book
+02-Nov-2020 15:46:03.555 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\GitProjects\ShangGuiGu_JavaWeb\apache-tomcat-8.0.50-windows-x64\apache-tomcat-8.0.50\webapps\book has finished in 20 ms
