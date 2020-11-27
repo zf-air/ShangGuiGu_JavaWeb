@@ -1,8 +1,8 @@
 package com.zf.web;
 
 import com.zf.pojo.User;
-import com.zf.service.UserServiceImpl;
-import com.zf.service.impl.UserService;
+import com.zf.service.impl.UserServiceImpl;
+import com.zf.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -32,18 +32,18 @@ public class RegisterServlet extends HttpServlet {
             if (userService.existsUsername(username)) {
                 System.out.println("用户名[" + username + "]已存在!");
 //        跳回注册页面
-                req.getRequestDispatcher("/pages/user/regist.html").forward(req, resp);
+                req.getRequestDispatcher("/pages/user/regist.jsp").forward(req, resp);
             } else {
                 //      可用
 //                调用Sservice保存到数据库
                 userService.registUser(new User(null, username, password, email));
 //
-//        跳到注册成功页面 regist_success.html
-                req.getRequestDispatcher("/pages/user/regist_success.html").forward(req, resp);
+//        跳到注册成功页面 regist_success.jsp
+                req.getRequestDispatcher("/pages/user/regist_success.jsp").forward(req, resp);
             }
         } else {
             System.out.println("验证码[" + code + "]错误");
-            req.getRequestDispatcher("/pages/user/regist.html").forward(req, resp);
+            req.getRequestDispatcher("/pages/user/regist.jsp").forward(req, resp);
         }
     }
 }

@@ -1,6 +1,6 @@
 package com.zf.dao.impl;
 
-import com.zf.test.UserDao;
+import com.zf.dao.UserDao;
 import com.zf.pojo.User;
 
 public class UserDaoImpl extends BaseDao implements UserDao {

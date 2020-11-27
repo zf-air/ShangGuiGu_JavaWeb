@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class UserDaoTest {
 
-    UserDao userDao = new UserDaoImpl();
+    UserDao userDao = (UserDao) new UserDaoImpl();
 
     @Test
     public void queryUserByUsername() {
