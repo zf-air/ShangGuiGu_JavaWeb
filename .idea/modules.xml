@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/EL_JSTL/EL_JSTL.iml" filepath="$PROJECT_DIR$/EL_JSTL/EL_JSTL.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet2/Servlet2.iml" filepath="$PROJECT_DIR$/Servlet2/Servlet2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletTest/ServletTest.iml" filepath="$PROJECT_DIR$/ServletTest/ServletTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car/car.iml" filepath="$PROJECT_DIR$/car/car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cookie_session/cookie_session.iml" filepath="$PROJECT_DIR$/cookie_session/cookie_session.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsp/jsp.iml" filepath="$PROJECT_DIR$/jsp/jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybook/mybook.iml" filepath="$PROJECT_DIR$/mybook/mybook.iml" />

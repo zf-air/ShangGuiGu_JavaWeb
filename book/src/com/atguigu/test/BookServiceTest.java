@@ -1,12 +1,13 @@
 package com.atguigu.test;
 
 import com.atguigu.pojo.Book;
-import com.atguigu.pojo.Page;
 import com.atguigu.service.BookService;
 import com.atguigu.service.impl.BookServiceImpl;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+
+import static org.junit.Assert.*;
 
 public class BookServiceTest {
 
@@ -37,14 +38,5 @@ public class BookServiceTest {
         for (Book queryBook : bookService.queryBooks()) {
             System.out.println(queryBook);
         }
-    }
-
-    @Test
-    public void page(){
-        System.out.println(bookService.page(1, Page.PAGE_SIZE ));
-    }
-    @Test
-    public void pageByPrice(){
-        System.out.println(bookService.pageByPrice(1, Page.PAGE_SIZE,10,50 ));
     }
 }

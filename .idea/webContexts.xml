@@ -3,7 +3,18 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/car/web/pages/client/index.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/common/head.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/common/login_success_menu.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/common/manager_menu.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/manager/car_manager.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/user/login.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/user/login_success.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/user/regist.jsp" value="file://$PROJECT_DIR$/car/web" />
+        <entry key="file://$PROJECT_DIR$/car/web/pages/user/regist_success.jsp" value="file://$PROJECT_DIR$/car/web" />
         <entry key="file://$PROJECT_DIR$/mybook/web/pages/client/index.jsp" value="file://$PROJECT_DIR$/mybook/web" />
+        <entry key="file://$PROJECT_DIR$/mybook/web/pages/common/head.jsp" value="file://$PROJECT_DIR$/mybook/web" />
+        <entry key="file://$PROJECT_DIR$/mybook/web/pages/common/login_success_menu.jsp" value="file://$PROJECT_DIR$/mybook/web" />
         <entry key="file://$PROJECT_DIR$/mybook/web/pages/manager/book_manager.jsp" value="file://$PROJECT_DIR$/mybook/web" />
         <entry key="file://$PROJECT_DIR$/mybook/web/pages/user/login.jsp" value="file://$PROJECT_DIR$/mybook/web" />
         <entry key="file://$PROJECT_DIR$/mybook/web/pages/user/regist.jsp" value="file://$PROJECT_DIR$/mybook/web" />
