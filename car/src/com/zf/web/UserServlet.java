@@ -8,7 +8,9 @@ import com.zf.service.impl.UserServiceImpl;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 
@@ -44,6 +46,36 @@ public class UserServlet extends BaseServlet {
         //  1、获取请求的参数
         String username = req.getParameter("username");
         String password = req.getParameter("password");
+        String Model = "郑州高新区随机森林模型.py";
+//        调用cmd执行Sklearn环境下的python程序
+//        String myCommand="E:\\Anaconda3\\envs\\Sklearn\\python.exe 郑州高新区随机森林模型.py";
+//        Process pr=Runtime.getRuntime().exec(myCommand,null,new File("E:\\GitProjects\\ShangGuiGu_JavaWeb\\car\\web\\"));
+//        Process pr=Runtime.getRuntime().exec(myCommand,null,new File("E:\\GitProjects\\Sklearn\\链家房价预估\\"));
+        String[] args = new String[] { "E:\\Anaconda3\\envs\\Sklearn\\python.exe",
+                "E:\\GitProjects\\Sklearn\\链家房价预估\\"+Model,
+                String.valueOf(70),
+                String.valueOf(0), String.valueOf(1), String.valueOf(0), String.valueOf(0),
+                String.valueOf(1), String.valueOf(0), String.valueOf(0),
+                String.valueOf(1), String.valueOf(0), String.valueOf(0),
+                "GaoXin_ForestModel.model",
+        };
+        Process pr=Runtime.getRuntime().exec(args);
+        try {
+            System.out.println(pr.waitFor());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        BufferedReader in=new BufferedReader(new InputStreamReader(pr.getInputStream(),"GBK"));
+        BufferedReader stderrReader = new BufferedReader(new InputStreamReader(pr.getErrorStream(),"GBK"));
+        String myString=null;
+        while((myString=in.readLine())!=null)
+            System.out.println(myString);
+
+//        System.out.println("ERROR");
+        while ((myString = stderrReader.readLine()) != null) {
+            System.out.println(myString);
+        }
+
         // 调用 userService.login()登录处理业务
         User loginUser = userService.login(username, password);
         // 如果等于null,说明登录 失败!

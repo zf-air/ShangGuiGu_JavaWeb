@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsp/jsp.iml" filepath="$PROJECT_DIR$/jsp/jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybook/mybook.iml" filepath="$PROJECT_DIR$/mybook/mybook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/price/price.iml" filepath="$PROJECT_DIR$/price/price.iml" />
+      <module fileurl="file://$PROJECT_DIR$/priceTest/priceTest.iml" filepath="$PROJECT_DIR$/priceTest/priceTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>

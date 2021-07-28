@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+	<!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/examples/jumbotron/jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body background="picture/xian1.jpg" style="background-repeat:no-repeat;background-size:100% 100%;background-attachment:fixed;">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+	 	<div class="navbar-header"><!-- 标题栏 -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HOMELESS宝典</a>
+         <button  type="submit" class="btn btn-default" onClick="history.go( -1 );return true">返回</button>
+        </div>
+       </div>
+      </nav>
+        
+    <div id="0d0c1bb8a84844bbb0e2858fc8229324" class="chart-container" style="width:900px; height:400px;margin:60px 40px 50px 200px;top:50px"></div>
+    
+    <script>
+        var chart_0d0c1bb8a84844bbb0e2858fc8229324 = echarts.init(
+            document.getElementById('0d0c1bb8a84844bbb0e2858fc8229324'), 'white', {renderer: 'canvas'});
+        var option_0d0c1bb8a84844bbb0e2858fc8229324 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+    	"#F0E68C",
+    	"#F5F5DC",
+    	"#6495ED",
+    	"#483D8B",
+    	"#FFFACD",
+        "orange",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u897f\u5b89\u5404\u533a:",
+            "legendHoverLink": true,
+            "data": [
+                "14002",
+                "15100",
+                "15176",
+                "12775",
+                "10043",
+                "7946",
+                "16574",
+                "14215",
+                "17807",
+                "10495",
+                "9692",
+                "17589"
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": 20,
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u897f\u5b89\u5404\u533a:"
+            ],
+            "selected": {
+                "\u897f\u5b89\u5404\u533a:": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "fontFamily": "Times New Roman",
+                "color": "#F5F5DC",
+                "fontSize": 14
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u57ce\u533a",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameRotate": 0,
+            "nameTextStyle": {
+                "fontFamily": "Times New Roman",
+                "color": "#F5F5DC",
+                "fontSize": 16
+            },
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 25,
+                "margin": 8,
+                "fontSize": 16,
+                "fontWeight": 200,
+                "color": "#F5F5DC",
+                "fontFamily": "Microsoft YaHei"
+                
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u7891\u6797\u533a",
+                "\u672a\u592e\u533a",
+                "\u705e\u6865\u533a",
+                "\u65b0\u57ce\u533a",
+                "\u4e34\u6f7c\u533a",
+                "\u960e\u826f\u533a",
+                "\u957f\u5b89\u533a",
+                "\u83b2\u6e56\u533a",
+                "\u96c1\u5854\u533a",
+                "\u9102\u9091\u533a",
+                "\u9ad8\u9675\u533a",
+                "\u897f\u54b8\u65b0\u533a"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u5e73\u5747\u5355\u4ef7/\u5143\u6bcf\u5e73\u7c73",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameRotate": 0,
+            "nameTextStyle": {
+                "fontFamily": "Times New Roman",
+                "color": "#F5F5DC",
+                "fontSize": 14
+            },
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 0,
+                "margin": 8,
+                "fontSize": 16,
+                "fontFamily": "Times New Roman",
+                "color": "#F5F5DC"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u897f\u5b89\u57ce\u533a\u623f\u4ea7\u5747\u4ef7\uff08\u8fd1\u4e00\u4e2a\u6708\u6570\u636e\uff09",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#F5F5DC",
+                "fontWeight": "bold",
+                "fontFamily": "Times New Roman",
+                "fontSize": 12
+            }
+        }
+    ]
+};
+        chart_0d0c1bb8a84844bbb0e2858fc8229324.setOption(option_0d0c1bb8a84844bbb0e2858fc8229324);
+    </script>
+</body>
+</html>
